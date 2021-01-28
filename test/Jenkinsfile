@@ -12,17 +12,17 @@ pipeline {
         }
         stage('Compile') {
             steps {
-                echo 'Compile the source code' 
+                echo 'Compile the source code BB' 
             }
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application' 
+                echo 'Run the security check against the application CC' 
             }
         }
         stage('Run Unit Tests') {
             steps {
-                echo 'Run unit tests from the source code' 
+                echo 'Run unit tests from the source code DD' 
             }
         }
         stage('Run Integration Tests') {

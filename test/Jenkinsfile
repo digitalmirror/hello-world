@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Static Analysis') {
             steps {
-                echo 'Run the static analysis to the code' 
+                echo 'Run the static analysis to the code AA' 
                 echo 'Checkout'
                 git url: 'https://github.com/digitalmirror/hello-world.git'
                 sh "ls -lart ./*"
